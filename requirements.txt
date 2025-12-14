@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+sqlalchemy>=1.4
+asyncpg
+psycopg2-binary         # if sync DB usage
+pydantic
+redis
+alembic                 # for migrations
+pytest
+httpx
+pytest-asyncio
+python-dotenv
+email-validator
+pydantic-settings
+pytest
+asgi_lifespan
